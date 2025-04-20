@@ -1,0 +1,10 @@
+
+*********************************
+{
+    "supplier_name": "Global Electronics Supply",
+    "supplier_email": "support@globalelectronics.com",
+    "supplier_location": "Austin, TX",
+    "lead_time": 3
+}
+*********************************
+{"supplier_name":"Global Electronics Supply","supplier_email":"support@globalelectronics.com","supplier_location":"Austin, TX","lead_time":3}

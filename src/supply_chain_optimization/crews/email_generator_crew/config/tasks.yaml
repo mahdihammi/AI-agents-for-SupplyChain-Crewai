@@ -1,0 +1,20 @@
+generate_email:
+  description: >
+    - Based on the : 
+        - Products to be ordered : 
+          {products}
+        - Supplier information:
+          {supplier}
+        - Route:
+          {route}
+
+    - Generate a formal purchase order email to the supplier email with:
+        - Clear subject line with PO number
+        - Product specifications
+        - Delivery requirements ( route , warehouse , ect )
+        - Payment terms
+        - Urgency level (based on stock levels)
+  expected_output: >
+    email in text format 
+  agent: supplier_emailer_agent
+

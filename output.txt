@@ -1,0 +1,49 @@
+```
+{
+    "reordered_products": [
+        {
+            "product_name": "Apple MacBook Pro 16-inch",
+            "number_of_orders_needed": 5
+        },
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+```**********************************
+{"products":[{"product_name":"Apple MacBook Pro 16-inch","number_of_orders_needed":5},{"product_name":"16GB DDR5 RAM Module","number_of_orders_needed":28},{"product_name":"Sony WH-1000XM5 Headphones","number_of_orders_needed":32}]}
+**********************************
+{
+    "reordered_products": [
+        {
+            "product_name": "Apple MacBook Pro 16-inch",
+            "number_of_orders_needed": 5
+        },
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+**********************************
+[
+    {
+        "product_name": "16GB DDR5 RAM Module",
+        "warehouse": "Dallas Warehouse",
+        "number_of_orders_needed": 28
+    },
+    {
+        "product_name": "Sony WH-1000XM5 Headphones",
+        "warehouse": "Dallas Warehouse",
+        "number_of_orders_needed": 32
+    }
+]

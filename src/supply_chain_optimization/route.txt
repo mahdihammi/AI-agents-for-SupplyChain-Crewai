@@ -1,0 +1,35 @@
+
+******************************
+{
+  "warehouse": "Dallas Warehouse",
+  "transport_mode": "Truck",
+  "cost": 400.00
+}
+******************************
+{
+  "warehouse": "Seattle Warehouse",
+  "transport_mode": "Air",
+  "cost": "1200.00"
+}
+******************************
+{
+  "warehouse": "Seattle Warehouse",
+  "transport_mode": "Air",
+  "cost": "1200.00"
+}
+******************************
+{"warehouse":"W002","transport_mode":"Train","cost":300.00}
+******************************
+{"warehouse":"W002","transport_mode":"Train","cost":300.00}
+******************************
+{
+  "warehouse": "Dallas Warehouse",
+  "transport_mode": "Truck",
+  "cost": "400.00"
+}
+******************************
+{
+  "warehouse": "Dallas Warehouse",
+  "transport_mode": "Truck",
+  "cost": "400.00"
+}

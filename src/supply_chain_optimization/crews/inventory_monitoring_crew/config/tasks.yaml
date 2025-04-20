@@ -1,0 +1,26 @@
+
+sql_creation_and_execution:
+  description: >
+    the goal in this task is to know what are the products that should be reordered.
+    follow these instructions to complete this task
+    based on the graph path recieved from the previous crews:
+    {graph_path}
+    
+    
+    1. Create SQL query to know which products will be reordered ( the date should be the latest ).
+    2. execute the query using the 'SnowflakeClientTool'.
+    3. analyze the result and see which products are gonna be reordered.
+    4. structure the result in a JSON format.
+     
+  expected_output: >
+    JSON Object containing the infomration about reordered products:
+      {{
+          product_name : < name of product >
+          warehouse : < name of the warehouse to be filled >
+          number_of_orders_needed : < number of orders needed to match the threshhold >
+      }}
+
+    - Do Not include any backticks (`) in the output
+  agent: inventory_agent
+
+

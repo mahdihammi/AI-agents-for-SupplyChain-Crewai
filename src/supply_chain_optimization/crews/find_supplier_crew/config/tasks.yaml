@@ -1,0 +1,25 @@
+supplier_selection:
+  description: >
+    based on the graph path recieved from the previous tasks
+    {graph_path}
+
+    1- Create a sql query to : 
+      - Select the single best supplier for the products needing reorder based on : 
+        - lead_time
+        - realibility_score
+   
+    2- execute the query using the 'SnowflakeClientTool'.
+    3- analyze the result and return which supplier is the best.
+
+  expected_output: >
+    JSON Object Containing the information about the supplier : 
+    {{
+        supplier_name : <name>
+        supplier_email : <email>
+        supplier_location : <location>
+        lead_time : <lead_time>
+    }}
+
+    Do Not include backticks (`)
+  agent: supplier_selection_agent
+

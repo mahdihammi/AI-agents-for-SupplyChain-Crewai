@@ -1,0 +1,23 @@
+optimize_route:
+  description: >
+    using the graph database path below : 
+    {graph_path}
+
+    and based on the supplier information:
+    {supplier}
+    
+    1- create a sql query to fetch the routes
+    2- use the 'SnowflakeClientTool' to execute the query
+    3- analyze the result and pick the best route for ordering the product.
+  expected_output: >
+    JSON object containing the best route for order : 
+    {{
+      warehouse : <warehouse_name>
+      transport_mode : <transport_mode>
+      cost : <cost>
+    }}
+
+    
+    Do Not include backticks (`)
+  agent: logistics_planner_agent
+

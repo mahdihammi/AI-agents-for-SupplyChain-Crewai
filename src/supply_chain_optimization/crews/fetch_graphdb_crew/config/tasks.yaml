@@ -1,0 +1,8 @@
+fetch_graph_db:
+  description: >
+    to complete this task, follow these instructions below : 
+    1. use the 'GraphManagerTool' to execute the cypher query below.
+        - MATCH p = (s:Schema)-[*0..]->(c:Column) RETURN p
+  expected_output: >
+    structred result
+  agent: graph_db_specialist

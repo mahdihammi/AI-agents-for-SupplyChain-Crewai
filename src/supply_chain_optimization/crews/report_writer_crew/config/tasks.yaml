@@ -1,0 +1,18 @@
+write_report:
+  description: >
+    - Based on the : 
+        - Products to be ordered : 
+          {products}
+        - Supplier information:
+          {supplier}
+        - Route:
+          {route}
+
+    - Generate a short markdown report to be given to the stakeholders and analysts for review : 
+      - ensure the report is clear and in professional tone
+      - ensure it's short and contains all the information about the order and highlighting all the important stuff
+  expected_output: >
+    markdown report without backticks (`)
+  agent: report_writer
+
+

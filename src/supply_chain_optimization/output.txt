@@ -1,0 +1,109 @@
+
+**********************************
+{
+    "products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+```
+**********************************
+{
+    "reordered_products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+**********************************
+{
+    "reordered_products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+**********************************
+{
+    "products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+```
+**********************************
+{
+    "products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+```
+**********************************
+{
+    "reordered_products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}
+**********************************
+{
+    "reordered_products": [
+        {
+            "product_name": "16GB DDR5 RAM Module",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 28
+        },
+        {
+            "product_name": "Sony WH-1000XM5 Headphones",
+            "warehouse": "Dallas Warehouse",
+            "number_of_orders_needed": 32
+        }
+    ]
+}

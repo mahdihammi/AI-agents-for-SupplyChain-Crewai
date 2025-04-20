@@ -1,0 +1,25 @@
+[project]
+name = "supply_chain_optimization"
+version = "0.1.0"
+description = "supply_chain_optimization using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.80.0,<=0.102.0",
+    "snowflake-sqlalchemy==1.7.0",
+    "mlflow",
+    "neo4j",
+    "streamlit>=1.44.1",
+    "pytest>=8.3.5",
+]
+
+[project.scripts]
+kickoff = "supply_chain_optimization.main:kickoff"
+plot = "supply_chain_optimization.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "flow"
